@@ -56,11 +56,10 @@ section > ul {
 section article {
   background-color: white;
   color: black;
-  box-shadow: 2px 2px 20 rgba(0, 0, 0, 0.6);
   border-radius: 1rem;
   width: 18rem;
   height: 25rem;
-  box-shadow: 4px 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 0 7px rgba(0, 0, 0, 0.3);
 }
 
 header > img {

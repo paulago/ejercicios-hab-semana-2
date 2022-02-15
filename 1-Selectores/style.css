@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+header h1 {
+  background-color: rgb(103, 183, 253);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h2 {
+  color: rgb(103, 183, 253);
+}
+
+li {
+  list-style-type: circle;
+}
+
+.importante {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+thead th {
+  background-color: rgb(23, 72, 207);
+  color: white;
+}
+
+tr:nth-of-type(even) {
+  background-color: rgb(100, 162, 255);
+}
+
+tr:nth-of-type(odd) {
+  background-color: rgb(167, 202, 255);
+}
+
+tbody th {
+  background-color: rgba(23, 72, 146, 0.3);
+}
+
+#descanso {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 10px 10px 10px 10px;
+}

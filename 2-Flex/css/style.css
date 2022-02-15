@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/2-Flex/img/hamburguesa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > fieldset:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset:first-child input {
+  margin-bottom: 1rem;
+}
+
+fieldset:nth-child(2) input,
+fieldset:nth-child(2) textarea {
+  padding: 0.3rem;
+  outline: none;
+  min-width: 300px;
+  margin-bottom: 1rem;
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+label,
+p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+fieldset:first-child [for] {
+  font-weight: lighter;
+}
+
+select {
+  padding: 0.3rem 0.5rem;
+  outline: none;
+  font-weight: bold;
+}
+
+#button {
+  background-color: rgb(3, 19, 49);
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+}
